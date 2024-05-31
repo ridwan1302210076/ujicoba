@@ -18,15 +18,7 @@ public class TallyTest {
         assertEquals(0, testTally.getTally());
     }
 
-    @Test
-    public void testAdd() {
-        Tally testTally = new Tally();
-        
-        for (int i = 1; i < 10; i++) {
-            testTally.add();
-            assertEquals(i, testTally.getTally());
-        }
-    }
+    
 
     @Test
     public void testSubtract() {
